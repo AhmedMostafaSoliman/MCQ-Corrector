@@ -5,7 +5,7 @@ https://www.kaggle.com/c/cse-464-mcqcorrector/
 
 ## The Algorithm
 1. Unrotate the image to make it vertical.<br>
-![rot_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/rot_img.jpg")
+![rot_img]("https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/rot_img.jpg")
 
 2. Complement dilate and binarize the rotate image
 3. Flood fill the image from the background
