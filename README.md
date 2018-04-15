@@ -26,14 +26,14 @@ https://www.kaggle.com/c/cse-464-mcqcorrector/
 
 6. Extract a small image containing the left boundary line from the questions area and binarize it to better localize the left boundary of the questions area.
 
-![comp_bw_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/comp_bw_img.jpg)
+![bw_hor_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_hor_edge.jpg)
 
 7. Extract a small image containing the top boundary line from the questions area and binarize it to better localize the top boundary of the questions area.
 
-![comp_bw_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/comp_bw_img.jpg)
+![bw_vert_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_vert_edge.jpg)
 
 8. Use the final coordinates to crop 3 images each containing 15 questions from the questions area.
 
-![comp_bw_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/comp_bw_img.jpg)
+![3im](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/3im.jpg)
 
 9. The locations of the circles in the cropped images are always the same in all images so we just can directly access the pixel values in all circles and compare them together to mark the paper.
