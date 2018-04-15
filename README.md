@@ -8,7 +8,7 @@ https://www.kaggle.com/c/cse-464-mcqcorrector/
 
 ![rot_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/rot_img.jpg)
 
-2. Complement dilate and binarize the rotate image.
+2. Complement dilate and binarize the rotated image.
 
 ![comp_bw_img](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/comp_bw_img.jpg)
 
@@ -26,11 +26,11 @@ https://www.kaggle.com/c/cse-464-mcqcorrector/
 
 6. Extract a small image containing the left boundary line from the questions area and binarize it to better localize the left boundary of the questions area.
 
-![bw_hor_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_hor_edge.jpg)
+![bw_vert_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_vert_edge.jpg)
 
 7. Extract a small image containing the top boundary line from the questions area and binarize it to better localize the top boundary of the questions area.
 
-![bw_vert_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_vert_edge.jpg)
+![bw_hor_edge](https://github.com/AhmedMostafaSoliman/MCQ-Corrector/blob/master/illustration/bw_hor_edge.jpg)
 
 8. Use the final coordinates to crop 3 images each containing 15 questions from the questions area.
 
